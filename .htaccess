@@ -1,0 +1,7 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^blog\.aeekay\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.blog\.aeekay\.com$
+RewriteRule ^post\/?(.*)$ "\/dispatch\.php?post=$1" [L]
+
+ErrorDocument 404 /errors/notfound.html

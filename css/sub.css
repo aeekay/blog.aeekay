@@ -1,0 +1,13 @@
+#Body a { color: #ffffff; }
+#Body a:active, a:hover { color: #c1c1c1; text-decoration: underline; }
+#Body img { border: 1px solid #333; padding: 2%; max-width: 96%; }
+#Body a > img { border: none; padding: 0px; }
+#Body p.center-align { text-align: center; }
+#Body .normal-text.italic { font-style: italic; }
+.instagram-section { margin-top: 25px; }
+.instagram-photos { position: relative; overflow: auto; }
+.instagram-photos ul { margin: 0px; padding: 0px; }
+.instagram-photos li a { display: block; }
+.instagram-photos ul li { float: left; display: block; list-style: none; }
+
+@media (max-width: 800px) {  #Body .void { padding-top: 160px; } }

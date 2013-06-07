@@ -1,0 +1,2 @@
+#Body p.center-align { text-align: center; }
+@media (max-width: 800px) {  #Body .void { padding-top: 150px; } }
